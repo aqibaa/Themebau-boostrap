@@ -52,8 +52,22 @@ body {
     width: 170px;
     font-weight: 600;
     text-align: center;
+    border-radius: 10px ;
     border: none;
     outline: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+    .btn0 {
+        margin-right: 5px;
+        height: 40px;
+        width: 80px;
+        text-align: center;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
 }
 
 .black {
@@ -93,7 +107,11 @@ body {
     vertical-align: middle;
     width: 6px;
 }
-
+@media screen and (max-width: 576px) {
+    .btn-ball{
+        display: none;
+    }
+}
 .large {
     color: white;
     font-size: 60px;
